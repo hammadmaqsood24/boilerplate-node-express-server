@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-node-express-server",
+  "version": "1.0.0",
+  "description": "Server for replacing the taxonomy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "local": "set NODE_ENV=local && node index.js",
+    "dev": "set NODE_ENV=dev && node index.js",
+    "live": "set NODE_ENV=live && node index.js"
+  },
+  "author": "Muhammad Hammad Maqsood",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
